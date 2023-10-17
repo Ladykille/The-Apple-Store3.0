@@ -26,12 +26,13 @@
 }
 .card:hover {
   transform: scale(1.05);
-  background-color: cornsilk;
+  background-color: #ffccff;
+  transition: 30deg;
 }
 /*-------------------Product-------------------*/
 .list-group .list-group-item:hover {
   background-color: transparent;
-  color: #ffff66;
+  color: bisque;
 }
 
 /*-------------------footer--------------------*/
@@ -51,9 +52,8 @@ footer {
 /*----------------Ảnh about us--------------------*/
 .Information-images {
   display: flex;
-  gap: 12px;
+  gap: 10px;
 }
-
 .App {
   width: 70%;
   height: 70%;
@@ -62,7 +62,6 @@ footer {
 .App2 {
   max-height: 150px;
 }
-
 .d-block {
   margin: 0 auto 0 auto;
 }
@@ -71,7 +70,6 @@ footer {
   height: 24rem;
   width: 15rem;
 }
-
 .col .card .card-img-top {
   width: 100%;
   height: 50%;
@@ -221,8 +219,9 @@ body {
 .footer_social_area a:hover,
 .footer_social_area a:focus {
   color: #ffffff;
+  transition: transform 0.5s ease-out;
+  transform: rotate(405deg);
 }
-
 @-webkit-keyframes bi-cycle {
   0% {
     left: 0;
@@ -231,7 +230,6 @@ body {
     left: 100%;
   }
 }
-
 @keyframes bi-cycle {
   0% {
     left: 0;
@@ -253,7 +251,4 @@ ul {
 .footer_area a {
   text-decoration: none;
 }
-.bn46 {
-  width: 150px;
-  height: 50px;
-}
+
