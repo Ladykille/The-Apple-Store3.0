@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/Roboto/Roboto-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+  padding: 0;
+  font-family: Roboto, Times, serif;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
+.h2,
+h2 {
+  color: brown;
+}
