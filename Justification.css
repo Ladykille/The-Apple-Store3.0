@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Times, serif;
+}
+
+img {
+  width: 45%;
+  height: 20%;
+  margin: 10px 0px;
+  border-radius: 15px;
+}
+
+p {
+  display: flex;
+  text-align: justify;
+  margin: 10px 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5px;
+  color: red;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 5px;
+  color: orange;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 5px;
+  color: orange;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+  color: red;
+}
+
+video {
+  display: flex;
+  justify-content: center;
+  height: 15%;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.h3 {
+  color: orange;
+}
