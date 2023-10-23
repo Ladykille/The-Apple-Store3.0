@@ -35,6 +35,14 @@
 }
 
 /*-------------------Product-------------------*/
+.Product {
+  padding-top: 8px;
+  padding-bottom: 80px;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
 .list-group .list-group-item:hover {
   background-color: transparent;
   color: bisque;
@@ -64,6 +72,7 @@ footer {
   text-align: center;
   display: flex;
   gap: 10px;
+  padding-bottom: 10px;
 }
 
 .Information-images .App:hover {
